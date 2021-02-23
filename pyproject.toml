@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wireguard-config-generator"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+configparser = "^5.0.1"
+pydantic = "^1.7.3"
+typing = "^3.7.4"
+ipaddr = "^2.2.0"
+pathlib = "^1.0.1"
+donna25519 = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
